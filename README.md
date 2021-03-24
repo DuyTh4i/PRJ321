@@ -1,5 +1,5 @@
 # PRJ321
- project website bán hàng sử dụng jsp servlet
+ project website bán hàng sử dụng servlet
  
 *Template: Electro_store-web
 
