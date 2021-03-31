@@ -2,11 +2,6 @@ USE [master]
 GO
 /****** Object:  Database [DuyTh4i]    Script Date: 19-Nov-20 4:53:08 PM ******/
 CREATE DATABASE [DuyTh4i]
- CONTAINMENT = NONE
- ON  PRIMARY 
-( NAME = N'DuyTh4i', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL14.DUYTHAI\MSSQL\DATA\DuyTh4i.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
- LOG ON 
-( NAME = N'DuyTh4i_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL14.DUYTHAI\MSSQL\DATA\DuyTh4i_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
 GO
 ALTER DATABASE [DuyTh4i] SET COMPATIBILITY_LEVEL = 140
 GO
